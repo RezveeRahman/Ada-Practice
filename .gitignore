@@ -3,4 +3,4 @@
 # o - Intermediate
 # o - Generated files
 **/bin/*
-**/ada/.obj/*
+**/.obj/*
