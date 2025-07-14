@@ -2,5 +2,6 @@ aggregate project Practice is
    -- This project adds up all the sub projects.
    -- Do not remove this file.
    --
-   for Project_Files use ("./1-Basic-Coding/Basic.gpr");
+   for Project_Files use ("./1-Basic-Coding/src/Basic.gpr",
+                          "./1-Basic-Coding/src/tests/Test.gpr");
 end Practice;

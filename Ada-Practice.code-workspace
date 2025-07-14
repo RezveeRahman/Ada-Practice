@@ -2,15 +2,16 @@
 	"folders": [
 		{
 			"path": "."
-		}
+		},
 	],
 	"settings": {
 		"[ada]": {
 			"editor.tabSize": 2,
 			"editor.detectIndentation": false,
-			"editor.rulers": [72, 80],
 		},
+		"editor.rulers": [72, 80],
 
 		"ada.defaultCharset": "utf-8",
+		"ada.projectFile": "Practice.gpr",
 	}
 }
