@@ -3,5 +3,6 @@ aggregate project Practice is
    -- Do not remove this file.
    --
    for Project_Files use ("./1-Basic-Coding/src/Basic.gpr",
-                          "./1-Basic-Coding/src/tests/Test.gpr");
+                          "./1-Basic-Coding/src/tests/Test.gpr",
+                          "./2-Basic-Coding-Pt_2/src/Basic_Two.gpr");
 end Practice;
