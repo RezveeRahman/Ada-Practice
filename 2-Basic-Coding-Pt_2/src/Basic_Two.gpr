@@ -1,0 +1,21 @@
+
+project Basic_Two is
+   for Languages use ("ada");
+   for Source_Dirs use ("./ada");
+   for Main use ("main.adb");
+   for Object_Dir use "./ada/.obj";
+   for Exec_Dir use "../bin";
+
+   package Builder is
+   end Builder;
+
+   package Compiler is
+      for Default_Switches ("") use ("-gnat2012");
+   end Compiler;
+
+   package Binder is
+   end Binder;
+
+   package Linker is
+   end Linker;
+end Basic_Two;

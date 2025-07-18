@@ -1,0 +1,6 @@
+# ignore files such as:
+# o - Binaries
+# o - Intermediate
+# o - Generated files
+**/bin/*
+**/.obj/*
