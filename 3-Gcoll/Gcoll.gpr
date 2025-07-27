@@ -1,0 +1,21 @@
+with "gnatcoll.gpr";
+
+project Gcoll is
+   for Source_Dirs use ("./src/ada/");
+   for Object_Dir use "./src/ada/.obj";
+   for Exec_Dir use "./bin";
+   for Main use ("main.adb");
+
+   package Builder is
+   end Builder;
+
+   package Compiler is
+   end Compiler;
+
+   package Binder is
+   end Binder;
+
+   package Linker is
+   end Linker;
+
+end Gcoll;
