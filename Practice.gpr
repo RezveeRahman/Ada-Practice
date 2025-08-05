@@ -7,5 +7,6 @@ aggregate project Practice is
                           "./2-Basic-Coding-Pt_2/src/Basic_Two.gpr",
                           "./3-Gcoll/Gcoll.gpr",
                           "./4-Types/TypesExp.gpr",
-                          "./5-Getting-User-Input/UI.gpr");
+                          "./5-Getting-User-Input/UI.gpr",
+                          "./6-Arrays/Arr.gpr");
 end Practice;
