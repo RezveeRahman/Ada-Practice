@@ -6,5 +6,6 @@ aggregate project Practice is
                           "./1-Basic-Coding/src/tests/Test.gpr",
                           "./2-Basic-Coding-Pt_2/src/Basic_Two.gpr",
                           "./3-Gcoll/Gcoll.gpr",
-                          "./4-Types/TypesExp.gpr");
+                          "./4-Types/TypesExp.gpr",
+                          "./5-Getting-User-Input/UI.gpr");
 end Practice;
